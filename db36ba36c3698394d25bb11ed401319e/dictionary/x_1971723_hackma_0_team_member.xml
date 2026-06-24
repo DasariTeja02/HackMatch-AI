@@ -15,6 +15,7 @@
             <choice>
                 <element inactive_on_update="false" label="AI Engineer" sequence="4" value="AI Engineer"/>
                 <element inactive_on_update="false" label="UI/UX Designer" sequence="2" value="UI/UX Designer"/>
+                <element inactive_on_update="false" label="Member" sequence="7" value="Member"/>
                 <element inactive_on_update="false" label="Tester" sequence="3" value="Tester"/>
                 <element inactive_on_update="false" label="Developer" sequence="1" value="Developer"/>
                 <element inactive_on_update="false" label="Team Leader" sequence="0" value="Team Leader"/>

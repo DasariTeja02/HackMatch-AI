@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d3736147c3adc394d25bb11ed401316c" label="Team" max_length="40" name="x_1971723_hackma_0_team" type="collection">
-        <element label="Team Leader" max_length="40" name="team_leader" type="string"/>
         <element label="Current Member Count" max_length="40" name="current_member_count" type="integer"/>
         <element label="Team Strength Score" max_length="40" name="team_strength_score" type="integer"/>
         <element label="Required Skills" max_length="40" name="required_skills" type="string"/>
-        <element display="true" label="Team Name" max_length="40" name="team_name" type="string"/>
+        <element display="true" label="Team Leader" max_length="32" name="team_leader" reference="x_1971723_hackma_0_students" type="reference"/>
+        <element label="Team Name" max_length="40" name="team_name" type="string"/>
         <element label="Description" max_length="40" name="description" type="string"/>
         <element choice="1" label="Team Status" max_length="40" name="team_status" type="choice">
             <choice>
@@ -15,5 +15,8 @@
             </choice>
         </element>
         <element label="Maximum Team Size" max_length="40" name="maximum_team_size" type="integer"/>
+        <index name="index">
+            <element name="team_leader"/>
+        </index>
     </element>
 </database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="df22dc17c3e14794d25bb11ed4013133" label="Student Skill" max_length="40" name="x_1971723_hackma_0_student_skill" type="collection">
+        <element label="Student" max_length="32" name="student" reference="x_1971723_hackma_0_students" type="reference"/>
+        <element label="Experience Years" max_length="40" name="experience_years" type="integer"/>
+        <element display="true" label="Skill" max_length="32" name="skill" reference="x_1971723_hackma_0_skill" type="reference"/>
+        <element choice="1" label="Proficiency Level" max_length="40" name="proficiency_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Expert" sequence="3" value="Expert"/>
+                <element inactive_on_update="false" label="Advanced" sequence="2" value="Advanced"/>
+                <element inactive_on_update="false" label="Beginner" sequence="0" value="Beginner"/>
+                <element inactive_on_update="false" label="Intermediate" sequence="1" value="Intermediate"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="skill"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

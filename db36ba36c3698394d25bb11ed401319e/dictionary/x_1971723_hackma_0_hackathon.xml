@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a30b7747c3214794d25bb11ed401319b" label="Hackathon" max_length="40" name="x_1971723_hackma_0_hackathon" type="collection">
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="1" value="Open"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="Cancelled"/>
+                <element inactive_on_update="false" label="In Progress" sequence="3" value="In Progress"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="Completed"/>
+                <element inactive_on_update="false" label="Registration Closed" sequence="2" value="Registration Closed"/>
+            </choice>
+        </element>
+        <element label="Hackathon Name" max_length="40" name="hackathon_name" type="string"/>
+        <element label="Organizer" max_length="40" name="organizer" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element choice="1" label="Theme" max_length="40" name="theme" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Healthcare" sequence="1" value="Healthcare"/>
+                <element inactive_on_update="false" label="AI" sequence="0" value="AI"/>
+                <element inactive_on_update="false" label="ServiceNow" sequence="6" value="ServiceNow"/>
+                <element inactive_on_update="false" label="Sustainability" sequence="4" value="Sustainability"/>
+                <element inactive_on_update="false" label="FinTech" sequence="2" value="FinTech"/>
+                <element inactive_on_update="false" label="Education" sequence="3" value="Education"/>
+                <element inactive_on_update="false" label="Cyber Security" sequence="5" value="Cyber Security"/>
+                <element inactive_on_update="false" label="Open Innovation" sequence="7" value="Open Innovation"/>
+            </choice>
+        </element>
+        <element label="Registration End Date" max_length="40" name="registration_end_date" type="glide_date_time"/>
+        <element label="Maximum Team Size" max_length="40" name="maximum_team_size" type="integer"/>
+        <element label="Registration Start Date" max_length="40" name="registration_start_date" type="glide_date_time"/>
+        <element label="Minimum Team Size" max_length="40" name="minimum_team_size" type="integer"/>
+    </element>
+</database>

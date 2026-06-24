@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="HackMatch AI">be2b7ebec3698394d25bb11ed4013126</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Students</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 06:58:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78de8f36c32d8394d25bb11ed4013126</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Students</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HackMatch AI " source="x_1971723_hackma_0">db36ba36c3698394d25bb11ed401319e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</sys_scope>
+        <sys_update_name>sys_app_module_78de8f36c32d8394d25bb11ed4013126</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 06:58:58</sys_updated_on>
+        <timeline_page/>
+        <title>Students</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</application>
+        <file_path/>
+        <instance_id>c31b4c3e1b8602107d9d2f8dee4bcb35</instance_id>
+        <instance_name>dev268354</instance_name>
+        <name>sys_app_module_78de8f36c32d8394d25bb11ed4013126</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HackMatch AI">be2b7ebec3698394d25bb11ed4013126</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Students</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-22 06:58:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>78de8f36c32d8394d25bb11ed4013126</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Students</sys_name><sys_overrides/><sys_package display_value="HackMatch AI " source="x_1971723_hackma_0">db36ba36c3698394d25bb11ed401319e</sys_package><sys_policy/><sys_scope display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</sys_scope><sys_update_name>sys_app_module_78de8f36c32d8394d25bb11ed4013126</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-22 06:58:58</sys_updated_on><timeline_page/><title>Students</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1592170454</payload_hash>
+        <record_name>Students</record_name>
+        <reverted_from/>
+        <source>7bab3efec3698394d25bb11ed4013190</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 06:58:58</sys_created_on>
+        <sys_id>1a1017f6c32d8394d25bb11ed4013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eee200e040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 06:58:58</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d61017f6142d83949443720c7e354774</update_guid>
+        <update_guid_history>d61017f6142d83949443720c7e354774:1592170454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Students">b2b397fec32d8394d25bb11ed40131f9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 07:14:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>77ddac34908a4020844490268e901100</sys_id>
+        <sys_metadata>78de8f36c32d8394d25bb11ed4013126</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Students</sys_name>
+        <sys_package display_value="HackMatch AI " source="x_1971723_hackma_0">db36ba36c3698394d25bb11ed401319e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</sys_scope>
+        <sys_scope_delete display_value="">10292ea0059a49c881ee99995f256e90</sys_scope_delete>
+        <sys_update_name>sys_app_module_78de8f36c32d8394d25bb11ed4013126</sys_update_name>
+        <sys_update_version display_value="sys_app_module_78de8f36c32d8394d25bb11ed4013126">1a1017f6c32d8394d25bb11ed4013175</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 07:14:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

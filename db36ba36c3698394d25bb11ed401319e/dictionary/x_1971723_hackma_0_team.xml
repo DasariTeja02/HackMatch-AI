@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d3736147c3adc394d25bb11ed401316c" label="Team" max_length="40" name="x_1971723_hackma_0_team" type="collection">
+        <element label="Team Leader" max_length="40" name="team_leader" type="string"/>
+        <element label="Current Member Count" max_length="40" name="current_member_count" type="integer"/>
+        <element label="Team Strength Score" max_length="40" name="team_strength_score" type="integer"/>
+        <element label="Required Skills" max_length="40" name="required_skills" type="string"/>
+        <element display="true" label="Team Name" max_length="40" name="team_name" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element choice="1" label="Team Status" max_length="40" name="team_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Disqualified" sequence="3" value="Disqualified"/>
+                <element inactive_on_update="false" label="Active" sequence="1" value="Active"/>
+                <element inactive_on_update="false" label="Forming" sequence="0" value="Forming"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="Completed"/>
+            </choice>
+        </element>
+        <element label="Maximum Team Size" max_length="40" name="maximum_team_size" type="integer"/>
+    </element>
+</database>

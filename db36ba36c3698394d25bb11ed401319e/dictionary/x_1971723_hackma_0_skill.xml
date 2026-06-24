@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="efdeab76c321c394d25bb11ed40131e4" label="Skill" max_length="40" name="x_1971723_hackma_0_skill" type="collection">
+        <element choice="1" label="Skill Category" max_length="40" name="skill_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="UI/UX" sequence="5" value="UI/UX"/>
+                <element inactive_on_update="false" label="Cloud" sequence="3" value="Cloud"/>
+                <element inactive_on_update="false" label="DevOps" sequence="7" value="DevOps"/>
+                <element inactive_on_update="false" label="Programming" sequence="0" value="Programming"/>
+                <element inactive_on_update="false" label="ServiceNow" sequence="1" value="ServiceNow"/>
+                <element inactive_on_update="false" label="Testing" sequence="6" value="Testing"/>
+                <element inactive_on_update="false" label="AI/ML" sequence="4" value="AI/ML"/>
+                <element inactive_on_update="false" label="Database" sequence="2" value="Database"/>
+            </choice>
+        </element>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Skill Name" max_length="40" name="skill_name" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+    </element>
+</database>

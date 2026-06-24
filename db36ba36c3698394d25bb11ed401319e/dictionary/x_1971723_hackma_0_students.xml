@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="94f253bec32d8394d25bb11ed40131d4" label="Student" max_length="40" name="x_1971723_hackma_0_students" type="collection">
+        <element choice="1" label="Preferred Role" max_length="40" name="preferred_role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="UI/UX Designer" sequence="1" value="UI/UX Designer"/>
+                <element inactive_on_update="false" label="Developer" sequence="0" value="Developer"/>
+                <element inactive_on_update="false" label="ServiceNow Developer" sequence="5" value="ServiceNow Developer"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="3" value="Project Manager"/>
+                <element inactive_on_update="false" label="AI Engineer" sequence="4" value="AI Engineer"/>
+                <element inactive_on_update="false" label="Tester" sequence="2" value="Tester"/>
+            </choice>
+        </element>
+        <element label="Student ID" max_length="40" name="student_id" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Year" max_length="40" name="year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="4th Year" sequence="3" value="4th Year"/>
+                <element inactive_on_update="false" label="2nd Year" sequence="1" value="2nd Year"/>
+                <element inactive_on_update="false" label="1st Year" sequence="0" value="1st Year"/>
+                <element inactive_on_update="false" label="3rd Year" sequence="2" value="3rd Year"/>
+            </choice>
+        </element>
+        <element label="College" max_length="40" name="college" type="string"/>
+        <element display="true" label="Student Name" max_length="40" name="student_name" type="string"/>
+        <element label="Branch" max_length="40" name="branch" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IT" sequence="3" value="IT"/>
+                <element inactive_on_update="false" label="ECE" sequence="1" value="ECE"/>
+                <element inactive_on_update="false" label="CIVIL" sequence="5" value="CIVIL"/>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="CSE"/>
+                <element inactive_on_update="false" label="MECH" sequence="4" value="MECH"/>
+                <element inactive_on_update="false" label="EEE" sequence="2" value="EEE"/>
+            </choice>
+        </element>
+        <element choice="1" label="Availability Status" max_length="40" name="availability_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Already in Team" sequence="2" value="Already in Team"/>
+                <element inactive_on_update="false" label="Busy" sequence="1" value="Busy"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="Available"/>
+            </choice>
+        </element>
+        <element choice="1" label="Experience Level" max_length="40" name="experience_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Intermediate" sequence="1" value="Busy"/>
+                <element inactive_on_update="false" label="Beginner" sequence="0" value="Available"/>
+                <element inactive_on_update="false" label="Advanced" sequence="2" value="Already in Team"/>
+            </choice>
+        </element>
+        <element label="Full Name" max_length="40" name="full_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a6c577f2c361c394d25bb11ed40131f2" label="Interest" max_length="40" name="x_1971723_hackma_0_interest" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Interest Name" max_length="40" name="interest_name" type="string"/>
+        <element choice="1" label="Interest Category" max_length="40" name="interest_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Business" sequence="1" value="Business"/>
+                <element inactive_on_update="false" label="Education" sequence="7" value="Education"/>
+                <element inactive_on_update="false" label="Technology" sequence="0" value="Technology"/>
+                <element inactive_on_update="false" label="Healthcare" sequence="5" value="Healthcare"/>
+                <element inactive_on_update="false" label="Design" sequence="3" value="Design"/>
+                <element inactive_on_update="false" label="Innovation" sequence="4" value="Innovation"/>
+                <element inactive_on_update="false" label="Research" sequence="2" value="Research"/>
+                <element inactive_on_update="false" label="Finance" sequence="6" value="Finance"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Label" max_length="40" name="label" type="string"/>
+        <element default="True" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Value" max_length="40" name="value" type="string"/>
+    </element>
+</database>

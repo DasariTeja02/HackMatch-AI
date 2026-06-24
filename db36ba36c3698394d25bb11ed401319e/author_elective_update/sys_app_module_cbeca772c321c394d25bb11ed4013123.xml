@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Skill">beeca772c321c394d25bb11ed401311c</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Skills</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1971723_hackma_0_skill</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1971723_hackma_0.skill_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 09:04:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbeca772c321c394d25bb11ed4013123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skills</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HackMatch AI " source="x_1971723_hackma_0">db36ba36c3698394d25bb11ed401319e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</sys_scope>
+        <sys_update_name>sys_app_module_cbeca772c321c394d25bb11ed4013123</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 09:04:54</sys_updated_on>
+        <timeline_page/>
+        <title>Skills</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</application>
+        <file_path/>
+        <instance_id>c31b4c3e1b8602107d9d2f8dee4bcb35</instance_id>
+        <instance_name>dev268354</instance_name>
+        <name>sys_app_module_cbeca772c321c394d25bb11ed4013123</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Skill">beeca772c321c394d25bb11ed401311c</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Skills</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1971723_hackma_0_skill</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1971723_hackma_0.skill_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-22 09:04:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cbeca772c321c394d25bb11ed4013123</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Skills</sys_name><sys_overrides/><sys_package display_value="HackMatch AI " source="x_1971723_hackma_0">db36ba36c3698394d25bb11ed401319e</sys_package><sys_policy/><sys_scope display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</sys_scope><sys_update_name>sys_app_module_cbeca772c321c394d25bb11ed4013123</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-22 09:04:54</sys_updated_on><timeline_page/><title>Skills</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>384426609</payload_hash>
+        <record_name>Skills</record_name>
+        <reverted_from/>
+        <source>7bab3efec3698394d25bb11ed4013190</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 09:04:54</sys_created_on>
+        <sys_id>07eca772c321c394d25bb11ed401315b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eee9359040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 09:04:54</sys_updated_on>
+        <type>Module</type>
+        <update_guid>83eca7722321c394c73f407bd26f905a</update_guid>
+        <update_guid_history>83eca7722321c394c73f407bd26f905a:384426609</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Skills">7bbe2776c321c394d25bb11ed40131fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 09:12:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>394922dbaee343169383bc2839721de4</sys_id>
+        <sys_metadata>cbeca772c321c394d25bb11ed4013123</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skills</sys_name>
+        <sys_package display_value="HackMatch AI " source="x_1971723_hackma_0">db36ba36c3698394d25bb11ed401319e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</sys_scope>
+        <sys_scope_delete display_value="">10292ea0059a49c881ee99995f256e90</sys_scope_delete>
+        <sys_update_name>sys_app_module_cbeca772c321c394d25bb11ed4013123</sys_update_name>
+        <sys_update_version display_value="sys_app_module_cbeca772c321c394d25bb11ed4013123">07eca772c321c394d25bb11ed401315b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 09:12:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

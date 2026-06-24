@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="54fc95c7c36dc394d25bb11ed4013168" label="Technology" max_length="40" name="x_1971723_hackma_0_technology" type="collection">
+        <element display="true" label="Technology Name" max_length="40" name="technology_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Technology Category" max_length="40" name="technology_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Frontend" sequence="3" value="Frontend"/>
+                <element inactive_on_update="false" label="DevOps" sequence="6" value="DevOps"/>
+                <element inactive_on_update="false" label="Programming Language" sequence="1" value="Programming Language"/>
+                <element inactive_on_update="false" label="Backend" sequence="4" value="Backend"/>
+                <element inactive_on_update="false" label="Platform" sequence="0" value="Platform"/>
+                <element inactive_on_update="false" label="AI/ML" sequence="7" value="AI/ML"/>
+                <element inactive_on_update="false" label="Database" sequence="2" value="Database"/>
+                <element inactive_on_update="false" label="Cloud" sequence="5" value="Cloud"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Version" max_length="40" name="version" type="string"/>
+        <element default="True" label="Active" max_length="40" name="active" type="boolean"/>
+    </element>
+</database>

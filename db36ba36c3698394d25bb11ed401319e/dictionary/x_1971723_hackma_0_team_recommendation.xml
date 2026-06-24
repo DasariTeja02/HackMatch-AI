@@ -2,8 +2,12 @@
     <element db_object_id="b2628d9fc3294794d25bb11ed4013139" label="Team Recommendation" max_length="40" name="x_1971723_hackma_0_team_recommendation" type="collection">
         <element label="Recommendation Reason" max_length="40" name="recommendation_reason" type="string"/>
         <element label="Recommendation Date" max_length="40" name="recommendation_date" type="glide_date_time"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice/>
+        <element choice="1" default="Pending" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accepted" sequence="1" value="Accepted"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="Pending"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="Rejected"/>
+            </choice>
         </element>
         <element label="Compatibility Score" max_length="40" name="compatibility_score" type="integer"/>
         <element label="Student" max_length="32" name="student" reference="x_1971723_hackma_0_students" type="reference"/>

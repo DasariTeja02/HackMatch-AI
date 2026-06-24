@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b2628d9fc3294794d25bb11ed4013139" label="Team Recommendation" max_length="40" name="x_1971723_hackma_0_team_recommendation" type="collection">
+        <element label="Recommendation Reason" max_length="40" name="recommendation_reason" type="string"/>
+        <element label="Recommendation Date" max_length="40" name="recommendation_date" type="glide_date_time"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Compatibility Score" max_length="40" name="compatibility_score" type="integer"/>
+        <element label="Student" max_length="32" name="student" reference="x_1971723_hackma_0_students" type="reference"/>
+        <element display="true" label="Recommended Student" max_length="32" name="recommended_student" reference="x_1971723_hackma_0_students" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="recommended_student"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

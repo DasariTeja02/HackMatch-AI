@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d2fe774fc3214794d25bb11ed4013117" label="Team Member" max_length="40" name="x_1971723_hackma_0_team_member" type="collection">
+        <element label="Join Date" max_length="40" name="join_date" type="glide_date_time"/>
+        <element label="Team" max_length="32" name="team" reference="x_1971723_hackma_0_team" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Removed" sequence="3" value="Removed"/>
+                <element inactive_on_update="false" label="Accepted" sequence="1" value="Accepted"/>
+                <element inactive_on_update="false" label="Invited" sequence="0" value="Invited"/>
+                <element inactive_on_update="false" label="Active" sequence="4" value="Active"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="Rejected"/>
+            </choice>
+        </element>
+        <element choice="1" label="Role In Team" max_length="40" name="role_in_team" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AI Engineer" sequence="4" value="AI Engineer"/>
+                <element inactive_on_update="false" label="UI/UX Designer" sequence="2" value="UI/UX Designer"/>
+                <element inactive_on_update="false" label="Tester" sequence="3" value="Tester"/>
+                <element inactive_on_update="false" label="Developer" sequence="1" value="Developer"/>
+                <element inactive_on_update="false" label="Team Leader" sequence="0" value="Team Leader"/>
+                <element inactive_on_update="false" label="ServiceNow Developer" sequence="5" value="ServiceNow Developer"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="6" value="Project Manager"/>
+            </choice>
+        </element>
+        <element display="true" label="Student" max_length="32" name="student" reference="x_1971723_hackma_0_students" type="reference"/>
+        <index name="index">
+            <element name="student"/>
+        </index>
+        <index name="index2">
+            <element name="team"/>
+        </index>
+    </element>
+</database>

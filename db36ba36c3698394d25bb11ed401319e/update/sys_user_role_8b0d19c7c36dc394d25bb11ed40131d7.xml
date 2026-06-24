@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>citH/VYW/OKAcOx6Tew2FOV5qbFRmkg6erGHqKvYRas=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1971723_hackma_0.technology_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>technology_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 17:14:46</sys_created_on>
+        <sys_id>8b0d19c7c36dc394d25bb11ed40131d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971723_hackma_0.technology_user</sys_name>
+        <sys_package display_value="HackMatch AI " source="x_1971723_hackma_0">db36ba36c3698394d25bb11ed401319e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</sys_scope>
+        <sys_update_name>sys_user_role_8b0d19c7c36dc394d25bb11ed40131d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 17:14:46</sys_updated_on>
+    </sys_user_role>
+</record_update>

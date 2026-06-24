@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cdb9d417c3254794d25bb11ed4013109" label="Student Interest" max_length="40" name="x_1971723_hackma_0_student_interest" type="collection">
+        <element display="true" label="Student" max_length="32" name="student" reference="x_1971723_hackma_0_students" type="reference"/>
+        <element label="Interest" max_length="32" name="interest" reference="x_1971723_hackma_0_interest" type="reference"/>
+        <index name="index">
+            <element name="interest"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

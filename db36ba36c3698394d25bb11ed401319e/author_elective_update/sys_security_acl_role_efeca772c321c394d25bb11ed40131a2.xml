@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 09:04:56</sys_created_on>
+        <sys_id>efeca772c321c394d25bb11ed40131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971723_hackma_0_skill.x_1971723_hackma_0.skill_user</sys_name>
+        <sys_package display_value="HackMatch AI " source="x_1971723_hackma_0">db36ba36c3698394d25bb11ed401319e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</sys_scope>
+        <sys_security_acl display_value="x_1971723_hackma_0_skill">13eca772c321c394d25bb11ed4013191</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_efeca772c321c394d25bb11ed40131a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 09:04:56</sys_updated_on>
+        <sys_user_role display_value="x_1971723_hackma_0.skill_user" name="x_1971723_hackma_0.skill_user">22eca37ec3ed8394d25bb11ed40131e6</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</application>
+        <file_path/>
+        <instance_id>c31b4c3e1b8602107d9d2f8dee4bcb35</instance_id>
+        <instance_name>dev268354</instance_name>
+        <name>sys_security_acl_role_efeca772c321c394d25bb11ed40131a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-22 09:04:56</sys_created_on><sys_id>efeca772c321c394d25bb11ed40131a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1971723_hackma_0_skill.x_1971723_hackma_0.skill_user</sys_name><sys_package display_value="HackMatch AI " source="x_1971723_hackma_0">db36ba36c3698394d25bb11ed401319e</sys_package><sys_policy/><sys_scope display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</sys_scope><sys_security_acl display_value="x_1971723_hackma_0_skill">13eca772c321c394d25bb11ed4013191</sys_security_acl><sys_update_name>sys_security_acl_role_efeca772c321c394d25bb11ed40131a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-22 09:04:56</sys_updated_on><sys_user_role display_value="x_1971723_hackma_0.skill_user" name="x_1971723_hackma_0.skill_user">22eca37ec3ed8394d25bb11ed40131e6</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1662226028</payload_hash>
+        <record_name>x_1971723_hackma_0_skill.x_1971723_hackma_0.skill_user</record_name>
+        <reverted_from/>
+        <source>7bab3efec3698394d25bb11ed4013190</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 09:04:56</sys_created_on>
+        <sys_id>63eca772c321c394d25bb11ed40131a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eee93614c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 09:04:56</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>23eca772d021c3944310fe61f93014a7</update_guid>
+        <update_guid_history>23eca772d021c3944310fe61f93014a7:1662226028</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1971723_hackma_0_skill.x_1971723_hackma_0.skill_user">13be2776c321c394d25bb11ed4013143</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 09:12:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2299630b39884eaf862699b0488e83c9</sys_id>
+        <sys_metadata>efeca772c321c394d25bb11ed40131a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971723_hackma_0_skill.x_1971723_hackma_0.skill_user</sys_name>
+        <sys_package display_value="HackMatch AI " source="x_1971723_hackma_0">db36ba36c3698394d25bb11ed401319e</sys_package>
+        <sys_parent display_value="">13eca772c321c394d25bb11ed4013191</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HackMatch AI ">db36ba36c3698394d25bb11ed401319e</sys_scope>
+        <sys_scope_delete display_value="">10292ea0059a49c881ee99995f256e90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_efeca772c321c394d25bb11ed40131a2</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_efeca772c321c394d25bb11ed40131a2">63eca772c321c394d25bb11ed40131a8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 09:12:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="038afc97c3294794d25bb11ed40131e1" label="Student Technology" max_length="40" name="x_1971723_hackma_0_student_technology" type="collection">
+        <element display="true" label="Technology" max_length="32" name="technology" reference="x_1971723_hackma_0_technology" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Student" max_length="32" name="student" reference="x_1971723_hackma_0_students" type="reference"/>
+        <index name="index">
+            <element name="student"/>
+        </index>
+        <index name="index2">
+            <element name="technology"/>
+        </index>
+    </element>
+</database>
